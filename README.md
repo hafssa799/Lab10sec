@@ -87,8 +87,47 @@ Pour que Frida puisse communiquer avec votre application `LAB10SEC`, vous devez 
 <img width="256" height="137" alt="image" src="https://github.com/user-attachments/assets/d76dfed2-e7b3-460a-aa33-16fdc1d228b1" />
 
 ## Etape 6 : - Explorer la console interactive Frida dans un contexte de sécurité
-6.1 Vérifier l’architecture du processus
+
+### 6.1 Vérifier l’architecture du processus
 
 <img width="561" height="49" alt="image" src="https://github.com/user-attachments/assets/a9dfc69c-f50a-4cbd-9625-f245c13f2e50" />
 
-6.2 Identifier le module principal de l’application
+### 6.2 Identifier le module principal de l’application
+
+<img width="627" height="198" alt="image" src="https://github.com/user-attachments/assets/a0423212-fd97-4da7-9cab-0679f4a37c40" />
+
+### 6.3 Inspecter une bibliothèque système critique
+
+<img width="798" height="196" alt="image" src="https://github.com/user-attachments/assets/6cadba61-f744-4646-b942-c158fbe409e6" />
+
+### 6.4 Vérifier la présence d’une fonction sensible
+
+<img width="925" height="364" alt="image" src="https://github.com/user-attachments/assets/c1915a87-3039-4c0d-94cf-02300e4700a0" />
+
+### 6.5 Lister les bibliothèques chargées
+
+<img width="712" height="946" alt="image" src="https://github.com/user-attachments/assets/e55f2596-10d8-4752-bc7f-39ec8b4cc383" />
+
+### 6.6 Lister les threads actifs
+
+<img width="718" height="64" alt="image" src="https://github.com/user-attachments/assets/3bb7e3ce-e603-4be2-a8e5-802544377f34" />
+
+## Étape 7 - Observer les bibliothèques de chiffrement, le stockage local et les appels réseau sensibles
+
+#### 7.1 Repérer les bibliothèques liées au chiffrement
+
+<img width="930" height="964" alt="image" src="https://github.com/user-attachments/assets/1549171e-5b76-4ebc-b0bb-0f24208ed722" />
+
+### 7.2 Vérifier la présence d’une fonction réseau sensible
+
+<img width="925" height="82" alt="image" src="https://github.com/user-attachments/assets/38978ae2-771e-46e4-bc3f-076a9ce5f600" />
+
+### 7.3 Installer un hook sur connect
+
+<img width="404" height="173" alt="image" src="https://github.com/user-attachments/assets/c7bad424-f1da-457f-90cd-b2e0b91ba9ce" />
+
+### 7.4 Installer un hook sur send et recv
+
+<img width="413" height="332" alt="image" src="https://github.com/user-attachments/assets/337a964c-bed1-4b07-8e7e-81e978d37de6" />
+
+
